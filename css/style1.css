@@ -1,0 +1,30 @@
+.khushal{
+height: 88vh;
+display: flex;
+width: 100%;
+}
+.left{
+
+width: 30%;
+margin-left: 20px;
+border-radius: 20px;
+
+}
+.right{
+background-color: rgb(113, 112, 112)smoke;
+width: 100%;
+margin:  0 20px;
+border-radius: 20px;
+}
+.head{
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+}
+.me{
+    height: 40vh;
+    border-radius: 20px;
+    width: 95%;
+    margin: 40px  20px ;
+
+}
