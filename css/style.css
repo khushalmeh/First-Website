@@ -224,6 +224,8 @@ i{
     }
     .rightnav{
         text-align: center;
+        width: 65%;
+        
     }
     .burger{
         display: block;
@@ -257,5 +259,6 @@ i{
         justify-content: center;
         margin-left: 41px;
     }
+    
     
 }
