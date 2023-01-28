@@ -13,13 +13,13 @@ function contact()
 {
    let input1 = document.forms['form']['input'];
    let input2= document.forms['form']['phone'];
-   let k = /[0-9]/;
+//    var k = /[0-9]/;
    if(input1.value == "")
    {
     alert("Please fill the name");
     return false;
    }
-  else if(input2.value.match.length < 10 || input2.value.match.length > 10)
+  else if(input2.value.length != 10)
    {
     alert("Please Enter valid Phone Number");
     return false;
