@@ -115,13 +115,13 @@
 
     <section class="contact" id="contact">
         <h2 class="text-Center"> Contact Us </h2>
-        <form>
+        <form onsubmit="contact()" name = "form">
             <div class="form">
-                <input type="text" class="form-input" name="name" id="name" placeholder="Enter Your Name">
-                <input type="text" class="form-input" name="phone" id="name" placeholder="Enter Your phone">
-                <input type="email" class="form-input" name="email" id="name" placeholder="Enter Your email">
+                <input type="text" class="form-input" name="input" id="name" placeholder="Enter Your Name" required="required">
+                <input type="text" class="form-input" name="phone" id="name" placeholder="Enter Your phone" >
+                <input type="email" class="form-input" name="email" id="name" placeholder="Enter Your email" required="required">
                 <textarea name="text" class="form-input" id="text" cols="30" rows="10"
-                    placeholder="Elaborate your Concern"></textarea>
+                    placeholder="Elaborate your Concern (Optional)"></textarea>
                 <button type="submit" class="btn btn-dark">Submit</button>
             </div>
         </form>
